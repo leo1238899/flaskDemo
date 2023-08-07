@@ -1,5 +1,5 @@
-import redis
-from config.setting import REDIS_HOST, REDIS_PORT, REDIS_PASSWD, EXPIRE_TIME
+import flaskDemo.redis
+from flaskDemo.config.setting import REDIS_HOST, REDIS_PORT, REDIS_PASSWD, EXPIRE_TIME
 
 
 class RedisDb():

@@ -1,5 +1,5 @@
 import hashlib
-from config.setting import MD5_SALT
+from flaskDemo.config.setting import MD5_SALT
 
 
 def get_md5(username, str):

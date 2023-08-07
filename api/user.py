@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
-from common.mysql_operate import db
-from common.redis_operate import redis_db
-from common.md5_operate import get_md5
+from flaskDemo.common.mysql_operate import db
+from flaskDemo.common.redis_operate import redis_db
+from flaskDemo.common.md5_operate import get_md5
 import re, time
 
 app = Flask(__name__)
